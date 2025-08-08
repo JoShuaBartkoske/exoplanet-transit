@@ -44,5 +44,5 @@ def create_animation(image_folder, output_filename="animation.gif", frame_durati
 if __name__ == "__main__":
     folder_path = "/Users/joshuabartkoske/Desktop/Exoplanets/screenshots_transit_noise_varying"
 
-    create_animation(folder_path, output_filename="TOI2109-transit-noise-varying.gif")
+    create_animation(folder_path, output_filename="TOI2109-transit-noise-varying.mp4", frame_duration=0.2)
 
