@@ -23,4 +23,4 @@ fast = 35 # km/s
 fast_stars = df[df['st_vsin'] > fast]
 print(fast_stars.head())
 
-print(len(df[df['st_vsin'] > fast]["hostname"].unique()))
+print(len(fast_stars["hostname"].unique()))
