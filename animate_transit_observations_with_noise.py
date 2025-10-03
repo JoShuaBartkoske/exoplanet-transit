@@ -8,9 +8,6 @@ Based on other work done for animating all sky camera snapshots
 
 import os
 import imageio
-import numpy as np
-from PIL import Image
-from PIL import ImageDraw
 
 def create_animation(image_folder, output_filename="animation.gif", frame_duration=0.1):
     """
